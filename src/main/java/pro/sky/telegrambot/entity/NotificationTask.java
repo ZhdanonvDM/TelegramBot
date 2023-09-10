@@ -43,7 +43,6 @@ public class NotificationTask {
                 ", dateTime=" + dateTime +
                 '}';
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(id);

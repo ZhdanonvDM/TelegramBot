@@ -54,7 +54,6 @@ public class TelegramBotUpdatesListener implements UpdatesListener {
                     }
                 }
             }
-//            update.message().text();
             logger.info("Processing update: {}", update);
             // Process your updates here
         });
